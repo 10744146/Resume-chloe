@@ -7,9 +7,10 @@
 			}
 			span.logo{
 				position: absolute;
-				top:20px;
+				top:40px;
 				left:150px;
 				font-size:25px;
+				font-weight: bolder;
 				width:300px;
 				height:100px;
 				
@@ -18,18 +19,19 @@
 				position: absolute;
 				top: 0px;
 				left: 0px;
-				width:100vw;
+				width:100%;
 				height:10vh;
 				background-color:#F5F5F5;
 			}
 			a{
-				font-size:20px;
+				font-size:24px;
+				font-weight: bolder;				
 				color:#778899;
 			}
 			div.view{
 				position:relative;
-				top:20px;
-				right:80px;
+				top:40px;
+				margin-right:2%;
 				width:150px;
 				height:20px;
 				float:right;
@@ -42,119 +44,113 @@
 		div.about{
 				border:none;
 				position:relative;
-				top:150px;
-				left:180px;
-				width:75vw;
+				margin-top:10%;
+				margin-left: 10%;
+				margin-right: 10%;
 				height:40vh;
 				background-color:#DCDCDC;
-				display: flex;
+
 			}
 			img.selfie{
 				border-radius: 10px;
 				position: absolute;
-				top:40px;
-				left:150px;
-				width:220px;
-				height:220px;
+				top:10%;
+				left:10%;
+				width:280px;
+				height:280px;
 			}
 			.name{
 				position: absolute;
-				top:265px;
-				left:210px;
-				width:100px;
-						height:50px;
+				font-size: 24px;
+				font-weight: bolder;
+				bottom: 0;
+				margin-left:14%;
+				width:200px;
+				height:50px;
 			}
 			div.about-word1{
 				position: absolute;
-				top: 40px;
-				left:880px;
+				margin-top:6%;
+				margin-left:80%;
 			}
 			div.about-word2{
 				font-family:微軟正黑體;
-				font-size:18px;
-				font-weight: bold;
+				font-size:26px;
+				font-weight: bolder;
 				text-align: center;
 				position: absolute;
-				top:80px;
-				left:390px;
+				margin-top:8%;
+				margin-left:35%;
 				}
 			span.aw1{
 				font-family:Comic Sans MS;
-				font-size:20px;
+				font-size:24px;
 				font-style: italic;
 				font-weight: bolder;
 			}
 			span.aw2{
 				font-family:Comic Sans MS;
-				font-size:15px;
+				font-size:20px;
 				color: #696969;
 				}
-			img.social1{
+			div.social{
 				position: relative;
-				top:200px;
-				left:850px;
+				bottom: 8%;
+				right: 6%;
+				width:auto;
+				height:50px;
+			}				
+			img.social{
+				position: relative;
 				width:50px;
 				height:50px;
 			}
-			img.social2{
-				position: absolute;
-				top:200px;
-				left:900px;
-				width:50px;
-				height:50px;
-			}
-			img.social3{
-				position: absolute;
-				top:200px;
-				left:960px;
-				width:45px;
-				height:45px;
-			}
-			img.social4{
-				position: absolute;
-				top:200px;
-				left:1000px;
-				width:65px;
-				height:65px;
-			}
-			.button4 {
+
+			.button4{
 				font-family:微軟正黑體;
 				font-size: 10px;
 				position: absolute;
-				top:220px;
-				left:400px;
-				width:100px;
-				height:40px;
+				bottom:30px;
+				left:35%;
+				width:150px;
+				height:60px;
 				background-color:#F0F8FF;
 				color:black;
 				border: 2px solid #F5FFFA;
 				border-radius: 15px;
 			}
-				.button4:hover {background-color:	#F5F5F5;}
+			.button4:hover {background-color:	#F5F5F5;}
+
 			.logion{
 				font-family:微軟正黑體;
 				font-weight: bolder;
+				font-size:28px;
 				color:#A0522D;
 				position: absolute;
-				top:230px;
-				left:520px;
+				bottom:40px;
+				left:50%;
 			}
 			.logion:hover {color:	#4169E1}
-		div.skill{
-				border:none;
-				position:relative;
-				top:150px;
-				left:180px;
-				width:30vw;
-				height:60vh;
-				background-color:white;
-				display: flex;
+			div.SE{
+			margin-left: 10%;
+			margin-right: 10%;	
+			border:none;
+			position:relative;
+			height:50vh;
+			background-color:white;					
 			}
-		div.sb{
+
+			div.skill{
+			position:relative;
+			height:50vh;
+			}
+
+			div.sb{
 			position:relative;
 			top:100px;
 			left:80px;
-		}
+			width:100%;
+			}
 		
 			span.t1{
 			font-family:微軟正黑體;
@@ -173,6 +169,23 @@
 			top:70px;
 			left:40px;
 			}
+			span.t3{
+			font-family:微軟正黑體;
+			font-size:30px;
+			font-weight: bolder;
+			color:darkslategray;
+			position: absolute;
+			top:20px;
+			left:40px;
+			}
+			span.t4{
+			font-family:微軟正黑體;
+			font-size:18px;
+			color:darkslategray;
+			position: absolute;
+			top:70px;
+			left:40px;
+			}				
 			.container-timeline {
 			width: 60%;
 			height:20px;
@@ -184,263 +197,264 @@
 			text-align: right;
 			color: white;
 			}
-		.html {
-		width: 75%;
-		height:20px;
-		
-		background-color: #60A8D8;
-		animation-name: skill75;
-		animation-duration: 10s;
-		animation-iteration-count: infinite;
-		border-radius:10px;
-		padding-right: 5px;
-		}
-		.css {
-		width: 70%;
-		height:20px;
-		background-color:#E7E551;
-		animation-name: skill70;
-		animation-duration: 10s;
-		animation-iteration-count: infinite;
-		border-radius:10px;
-		padding-right: 5px;
-		}
-		.js {
-		width:60%;
-		height:20px;
-		background-color: #FF7CA9;
-		animation-name: skill55;
-		animation-duration: 10s;
-		animation-iteration-count: infinite;
-		border-radius:10px;
-		padding-right: 5px;
-		}
-		.java {
-		width: 70%;
-		height:20px;
-		
-		background-color: 	#FF9017;
-		animation-name: skill70;
-		animation-duration: 10s;
-		animation-iteration-count: infinite;
-		border-radius:10px;
-		padding-right: 5px;
-		}
-		.c{
-		width: 75%;
-		height:20px;
-		background-color: 	#6FD27E;
-		animation-name: skill75;
-		animation-duration: 10s;
-		animation-iteration-count: infinite;
-		border-radius:10px;
-		padding-right: 5px;
-		}
-		.sk{
-		text-align: left;
-		}
-		@keyframes skill75 {
-		10% {width: 0%}
-		40% {width: 75%}
-		100% {width: 75%}
-		}
-		@keyframes skill70 {
-		20% {width: 0%}
-		70% {width: 70%}
-		100% {width: 70%}
-		}
-		@keyframes skill55 {
-		25% {width: 0%}
-		60% {width: 55%}
-		100% {width: 55%}
-		}
-		@keyframes skill70 {
-		25% {width: 0%}
-		60% {width: 70%}
-		100% {width: 70%}
-		}
-		@keyframes skill75 {
-		30% {width: 0%}
-		90% {width: 75%}
-		100% {width: 75%}
-				}
-		div.Education{
-				border:none;
-				position:relative;
-				top:0px;
-				left:0px;
-				width:40vw;
-				height:40vh;
+
+			.html {
+			width: 75%;
+			height:20px;
+			background-color: #60A8D8;
+			animation-name: skill75;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			border-radius:10px;
+			padding-right: 5px;
 			}
-		div.ed{
+			.css {
+			width: 70%;
+			height:20px;
+			background-color:#E7E551;
+			animation-name: skill70;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			border-radius:10px;
+			padding-right: 5px;
+			}
+			.js {
+			width:60%;
+			height:20px;
+			background-color: #FF7CA9;
+			animation-name: skill55;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			border-radius:10px;
+			padding-right: 5px;
+			}
+			.java {
+			width: 70%;
+			height:20px;
+			
+			background-color: 	#FF9017;
+			animation-name: skill70;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			border-radius:10px;
+			padding-right: 5px;
+			}
+			.c{
+			width: 75%;
+			height:20px;
+			background-color: 	#6FD27E;
+			animation-name: skill75;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			border-radius:10px;
+			padding-right: 5px;
+			}
+
+			.sk{
+			text-align: left;
+			font-size: 18px;
+			font-weight: bolder;
+			}
+			@keyframes skill75 {
+			10% {width: 0%}
+			40% {width: 75%}
+			100% {width: 75%}
+			}
+			@keyframes skill70 {
+			20% {width: 0%}
+			70% {width: 70%}
+			100% {width: 70%}
+			}
+			@keyframes skill55 {
+			25% {width: 0%}
+			60% {width: 55%}
+			100% {width: 55%}
+			}
+			@keyframes skill70 {
+			25% {width: 0%}
+			60% {width: 70%}
+			100% {width: 70%}
+			}
+			@keyframes skill75 {
+			30% {width: 0%}
+			90% {width: 75%}
+			100% {width: 75%}
+					}
+			div.Education{
+			border:none;
 			position:relative;
-			top:10px;
-			left:10px;
-		}
-		img.c1{
-		position: absolute;
-		top:90px;
-		left:50px;
-		width:100px;
-		height:100px;
-		}
-		span.c1-word{
-		text-align: center;
-		position: absolute;
-		top:90px;
-		left:160px;
-		font-family:微軟正黑體;
-		font-size:8px;
-		color: #696969;
-		}
-		img.c2{
-		position: absolute;
-		top:250px;
-		left:50px;
-		width:100px ;
-		height:100px;
-		}
-		span.c2-word{
-		text-align: center;
-		position: absolute;
-		top:260px;
-		left:160px;
-		font-family:微軟正黑體;
-		font-size:8px;
-		color: #696969;
-		}
-		img.c3{
-		position: absolute;
-		top:90px;
-		left:300px;
-		width:100px ;
-		height:100px;
-		}
-		span.c3-word{
-		text-align: center;
-		position: absolute;
-		top:100px;
-		left:420px;
-		font-family:微軟正黑體;
-		font-size:8px;
-		color: #696969;
-		}
-		img.c4{
-		position: absolute;
-		top:250px;
-		left:300px;
-		width:95px;
-		height:95px;
-		}
-		span.c4-word{
-		text-align: center;
-		position: absolute;
-		top:280px;
-		left:420px;
-		font-family:微軟正黑體;
-		font-size:8px;
-		color: #696969;
-		}
-		img.c1:hover{
-			transform: scale(1.2);
-		}
-		img.c2:hover{
-			transform: scale(1.2);
-		}
-		img.c3:hover{
-			transform: scale(1.2);
-		}
-		img.c4:hover{
-			transform: scale(1.2);
-		}						
-		div.Experience{
-				border:none;
-				position:relative;
-				top:150px;
-				left:180px;
-				width:75vw;
-				height:90vh;
-				background-color:#F0FFF0;
-		}
+			height:50vh;
+			background-color: white;
+			}
+			div.ed{
+			position:relative;
+			margin-top: 5%;
+			margin-left: 5%;
+			}
+			img.c1{
+			position: absolute;
+			top:90px;
+			left:50px;
+			width:100px;
+			height:100px;
+			}
+			span.c1-word{
+			text-align: center;
+			position: absolute;
+			top:90px;
+			left:160px;
+			font-family:微軟正黑體;
+			font-size:8px;
+			color: #696969;
+			}
+			img.c2{
+			position: absolute;
+			top:250px;
+			left:50px;
+			width:100px ;
+			height:100px;
+			}
+			span.c2-word{
+			text-align: center;
+			position: absolute;
+			top:260px;
+			left:160px;
+			font-family:微軟正黑體;
+			font-size:8px;
+			color: #696969;
+			}
+			img.c3{
+			position: absolute;
+			top:90px;
+			left:300px;
+			width:100px ;
+			height:100px;
+			}
+			span.c3-word{
+			text-align: center;
+			position: absolute;
+			top:100px;
+			left:420px;
+			font-family:微軟正黑體;
+			font-size:8px;
+			color: #696969;
+			}
+			img.c4{
+			position: absolute;
+			top:250px;
+			left:300px;
+			width:95px;
+			height:95px;
+			}
+			span.c4-word{
+			text-align: center;
+			position: absolute;
+			top:280px;
+			left:420px;
+			font-family:微軟正黑體;
+			font-size:8px;
+			color: #696969;
+			}
+			img.c1:hover{
+				transform: scale(1.2);
+			}
+			img.c2:hover{
+				transform: scale(1.2);
+			}
+			img.c3:hover{
+				transform: scale(1.2);
+			}
+			img.c4:hover{
+				transform: scale(1.2);
+			}						
+			div.Experience{
+			border:none;
+			position:relative;
+			margin-left: 10%;
+			margin-right: 10%;	
+			height:60vh;
+			background-color:#F0FFF0;
+			}
 
 			.ex{
-		width:890px ;
-		position: relative;
-		margin-top: 60px;
-		margin-left:auto;
-		margin-right: auto;
-		margin-bottom:60px ;
-		opacity: 0;
-
-		text-align: center;
+			width:890px ;
+			position: relative;
+			margin-top: 60px;
+			margin-left:auto;
+			margin-right: auto;
+			margin-bottom:60px ;
+			opacity: 0;
+			text-align: center;
 			}
-		.accordion {
 
-		border-radius:15px;
-		background-color:#B0C4DE;
-		color: #FFFFFF;
-		cursor: pointer;
-		padding: 18px 18px 18px 50px;
-		width: 325px;
-		border: none;
-		text-align:center;
-		outline: none;
-		font-size: 20px;
-		transition: 0.4s;
-		font-family: Microsoft JhengHei;
-		font-weight: bolder;
-		}
-		.accordion:hover {
-		background-color:#D3D3D3;
-		color:#716082;
-		transform: scale(1.1);
-		font-size: 22px;
-		}
-		.panel {
+			.accordion {
+			border-radius:15px;
+			background-color:#B0C4DE;
+			color: #FFFFFF;
+			cursor: pointer;
+			padding: 18px 18px 18px 50px;
+			width: 325px;
+			border: none;
+			text-align:center;
+			outline: none;
+			font-size: 20px;
+			transition: 0.4s;
+			font-family: Microsoft JhengHei;
+			font-weight: bolder;
+			}
+			.accordion:hover {
+			background-color:#D3D3D3;
+			color:#716082;
+			transform: scale(1.1);
+			font-size: 22px;
+			}
 
-		width: 90%;
-		margin-left:5%;
-		margin-top:20px;
-		padding:0 18px;
-		background-color: rgba(160, 191, 205, 0.7);
-		border: none;
-		border-radius: 15px;
-		max-height: 0;
-		overflow: hidden;
-		transition: max-height 0.2s ease-out;
-		}
-		.move{	margin: 100px auto 100px auto;}
-		.move123{
-		margin: 20px;
-		}
+			.panel {
+			text-align: center;
+			width: 90%;
+			margin-left:5%;
+			margin-top:20px;
+			padding:0 18px;
+			background-color: rgba(160, 191, 205, 0.7);
+			border: none;
+			border-radius: 15px;
+			max-height: 0;
+			overflow: hidden;
+			transition: max-height 0.2s ease-out;
+			}
+
+			.move{	margin: 100px auto 100px auto;}
+			.move123{
+			margin: 20px;
+			}
 
 			.title{
-		font-family: Microsoft JhengHei;
-		font-size:24px;
-		color:#4F4259;
-		font-weight:bolder;}
+			font-family: Microsoft JhengHei;
+			font-size:26px;
+			color:#4F4259;
+			font-weight:bolder;
+			margin: 2% 0 2% 0;
+			}
 			.p123{
-		font-family: Microsoft JhengHei;
-		font-size:18px;
-		color:#41416B;
-		font-weight:bolder;
-		}
-		div.Footer{
-				margin-bottom: 3%;
-				border:none;
-				position:relative;
-				top:150px;
-				left:180px;
-				width:75vw;
-				height:20vh;
-				background-color:#DCDCDC;
-		}
-		.footer{
-			position: absolute;
-			top:60px;
-			left: 380px;
-			font-family: sans-serif;
+			font-family: Microsoft JhengHei;
+			font-size:20px;
+			color:#41416B;
+			font-weight:bolder;
+			margin-bottom: 2%;
+			}
+
+			div.Footer{
+			margin-top: 5%;
+			border:none;
+			position:relative;
+			height:15vh;
+			background-color:#F5F5F5;
+			}
+			p.footer{
+			font-family: Microsoft JhengHei;
 			font-size: 18px;
+			font-weight: bolder;
 			color:darkslategray;
 			text-align: center;
-		}		
+			padding-top: 2%;
+			}		
